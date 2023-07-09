@@ -1,0 +1,38 @@
+/*  root    */
+:root{
+    --bg-color: #FCFFFF;
+    --gray: #666666;
+    --line-gray: #dadada;
+    --light-blue: #57C3BE;
+}
+
+/*  color    */
+
+.light-bg{
+    background-color: var(--bg-color);
+}
+.text-gray{
+    color: var(--gray);
+}
+.line-gray{
+    background-color: var(--line-gray);
+}
+.light-blue-bg{
+    background-color: var(--light-blue);
+}
+
+/*  font-size   */
+.fs-18{
+    font-size: 1.8rem;
+}
+.fs-14{
+    font-size: 1.4rem;
+}
+
+/* font-family  */
+.ff-roboto-400{
+    font-family: roboto-400;
+}
+.ff-roboto-700{
+    font-family: roboto-700;
+}
