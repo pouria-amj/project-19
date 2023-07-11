@@ -1,0 +1,29 @@
+Lotfan bad az inke az prozhe clone gereftid in marahel ro anjam bedid:
+    
+    1-yek branch jadid besazid --> "git branch branch_name" --> jaye branch_name bayad esme branchetun ro benevisid. mitunid az in tarkib estefade konid: "safhe-page-familyname" (masalan: dashboard-page-mehrzad ya todaystask-page-firoozi)
+
+
+    2-ba dastoore "git checkout branch_name" berid be hamun branchi ke baraye khodetun sakhtid.
+    * ba in dastoor mitunid check konid ruye kodum branch hastid: "git branch". hatman check konid uni ke rangesh sabz hast bayad esme branche khodetoon bashe.
+
+
+    3-tooye branche jadidi ke sakhtid, file .html khodetun ro copy konid be jaye file mojood too folder project_19 ba hamun esm.
+
+
+    4-tooye file .html khodetoon link'haye css ro tagheer bedid be:
+
+        <link rel="stylesheet" href="./Css/bootstrap.css">
+        <link rel="stylesheet" href="./Css/index.css">
+
+
+    5-har stylei ke be khodetoon dadid ro az file css khodetoon copy konid too file css asli (./Css/index.css). momkene niaz bashe bazi class'hatun ro bar asase file jadid tagheer bedid.
+
+
+    6-image'ha ro copy konid tooye folder "./Assets/Images".
+
+
+    7-too in marhale check konid ke safhatoon tooye browser dorost baz beshe va dorost namayesh dade beshe.
+
+
+    8-agar hamechiz okay bood, push konid roo github dige va badam pull request bedid.
+        
