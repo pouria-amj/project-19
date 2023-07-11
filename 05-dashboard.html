@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/bootstrap.css">
+    <link rel="stylesheet" href="./Css/index.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="bg-design">
+        <div class="container">
+            <section class="profile px-2 pt-5 pb-4">
+                <button class="pt-2" onclick="window.location.href='./06-todays-task.html';" draggable="true" ondragend="window.location.href='./07-create-new.html';">
+                    <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1" x2="25" y2="1" stroke="black" stroke-width="2"/>
+                        <line y1="5" x2="20" y2="5" stroke="black" stroke-width="2"/>
+                        <line y1="9" x2="25" y2="9" stroke="black" stroke-width="2"/>
+                        <line y1="13" x2="20" y2="13" stroke="black" stroke-width="2"/>
+                    </svg>
+                </button>
+                <div class="d-flex flex-column align-items-center pt-2">
+                    <img class="rounded-circle py-2" src="./Assets/Images/Ellipse-11.png" alt="">
+                    <h3 class="fw-bold">Oliva Grace</h3>
+                </div>
+            </section>
+            <section class="mytasks px-2 pt-3 pb-4">
+                <div class="mytasks-heading d-flex justify-content-between align-items-center mb-2">
+                    <span class="fs-18px fw-bold">My tasks</span>
+                    <button class="calendar-icon rounded-circle" type="button">
+                        <img src="./Assets/Images/Group-58.png" alt="">
+                    </button>
+                </div>
+                <div class="mytask-cats d-flex flex-column gap-4">
+                    <div class="d-flex align-items-center gap-3">
+                        <img class="rounded-circle" src="./Assets/Images/Group-80.png" alt="">
+                        <div class="cats-desc ps-1 d-flex flex-column">
+                            <span class="fs-14px fw-bold lh-sm">To Do</span>
+                            <span class="fs-12px text-gray">5 tasks now. 1 started</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <img class="rounded-circle" src="./Assets/Images/Group-46.png" alt="">
+                        <div class="cats-desc ps-1 d-flex flex-column">
+                            <span class="fs-14px fw-bold lh-sm">In progress</span>
+                            <span class="fs-12px text-gray">1 tasks now. 1 started</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <img class="rounded-circle" src="./Assets/Images/Group47.png" alt="">
+                        <div class="cats-desc ps-1 d-flex flex-column">
+                            <span class="fs-14px fw-bold lh-sm">Done</span>
+                            <span class="fs-12px text-gray">5 tasks now. 8 completed</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects px-2 pb-5">
+                <div class="projects-heading pb-1 mb-4 mt-3">
+                    <span class="fs-18px fw-bold">Active Projects</span>
+                </div>
+                <div class="projects-gallery">
+                    <div class="row row-cols-3 gx-2 gy-3">
+                        <div class="col">
+                            <div class="project-card bg-red d-flex flex-column align-items-center text-white px-2 py-3">
+                                <div class="progressbar-radial position-relative my-2">
+                                    <img src="./Assets/Images/Group-52.png" alt="">
+                                    <div class="fs-12px fw-bold position-absolute top-50 start-50 translate-middle">20%</div>
+                                </div>
+                                <div class="fs-14px fw-bold pt-3">Medical App</div>
+                                <div class="fs-12px">9 hours progress</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="project-card bg-blue d-flex flex-column align-items-center text-white px-1 py-3">
+                                <div class="progressbar-radial position-relative my-2">
+                                    <img src="./Assets/Images/Group-51.png" alt="">
+                                    <div class="fs-12px fw-bold position-absolute top-50 start-50 translate-middle">70%</div>
+                                </div>
+                                <div class="fs-14px fw-bold pt-3">Sports App</div>
+                                <div class="fs-12px">30 hours progress</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="project-card bg-turq d-flex flex-column align-items-center text-white px-1 py-3">
+                                <div class="progressbar-radial position-relative my-2">
+                                    <img src="./Assets/Images/Group-52.png" alt="">
+                                    <div class="fs-12px fw-bold position-absolute top-50 start-50 translate-middle">90%</div>
+                                </div>
+                                <div class="fs-14px fw-bold pt-3">Music App</div>
+                                <div class="fs-12px">42 hours progress</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="project-card bg-turq d-flex flex-column align-items-center text-white px-2 py-3">
+                                <div class="progressbar-radial position-relative my-2">
+                                    <img src="./Assets/Images/Group-52.png" alt="">
+                                    <div class="fs-12px fw-bold position-absolute top-50 start-50 translate-middle">20%</div>
+                                </div>
+                                <div class="fs-14px fw-bold pt-3">Medical App</div>
+                                <div class="fs-12px">9 hours progress</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="project-card bg-red d-flex flex-column align-items-center text-white px-2 py-3">
+                                <div class="progressbar-radial position-relative my-2">
+                                    <img src="./Assets/Images/Group-52.png" alt="">
+                                    <div class="fs-12px fw-bold position-absolute top-50 start-50 translate-middle">20%</div>
+                                </div>
+                                <div class="fs-14px fw-bold pt-3">Medical App</div>
+                                <div class="fs-12px">9 hours progress</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="project-card bg-blue d-flex flex-column align-items-center text-white px-2 py-3">
+                                <div class="progressbar-radial position-relative my-2">
+                                    <img src="./Assets/Images/Group-52.png" alt="">
+                                    <div class="fs-12px fw-bold position-absolute top-50 start-50 translate-middle">20%</div>
+                                </div>
+                                <div class="fs-14px fw-bold pt-3">Medical App</div>
+                                <div class="fs-12px">9 hours progress</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>    
+</body>
+</html>

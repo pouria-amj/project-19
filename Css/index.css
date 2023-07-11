@@ -1,0 +1,71 @@
+:root {
+    --body-font-family: Roboto;
+    --light-gray: #666666;
+    --redish-color: #FB6F6F;
+    --bluish-color: #34B5FD;
+    --turquoise-color: #4BC0BB;
+}
+
+body {
+    font-family: var(--body-font-family), var(--bs-body-font-family);
+}
+
+.container {
+    max-width: 375px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0%;
+}
+
+
+
+/* utils: */
+
+.fs-18px {
+    font-size: 1.125rem;
+}
+
+.fs-14px {
+    font-size: 0.875rem
+}
+
+.fs-12px {
+    font-size: 0.75rem;
+}
+
+.text-gray {
+    color: var(--light-gray);
+}
+
+.bg-red {
+    background-color: var(--redish-color);
+}
+
+.bg-blue {
+    background-color: var(--bluish-color);
+}
+
+.bg-turq {
+    background-color: var(--turquoise-color);
+}
+
+
+
+
+
+/* dashboard.html's Css */
+
+
+.project-card {
+    border-radius: 0.625rem;
+}
+
+.bg-design {
+    background-image: url(../Assets/Images/Group-79.png);
+    height: 17.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
